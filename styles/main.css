@@ -35,7 +35,7 @@
   top: -40px;
   left: -10px;
   z-index: 5;
-  background: #ffffff;
+  background-color: #ff2a2a;
   border-radius: 12px;
   max-width: 360px;
   margin: 0 auto 100px;
@@ -44,11 +44,11 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.container elements {
+.container .elements {
   font-family: "Roboto", sans-serif;
   outline: 0;
   border-radius: 12px;
-  background: #ffffff;
+  background: #ef2b2b;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
