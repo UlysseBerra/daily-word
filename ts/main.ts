@@ -35,7 +35,7 @@ let changeWord: boolean;
 function getDate() {
   const d = new Date();
 
-  if (d.getHours() === 20 && d.getMinutes() === 18) {
+  if (d.getHours() === 0 && d.getMinutes() === 0) {
     changeWord = true;
   }
 }
