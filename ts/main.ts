@@ -15,7 +15,7 @@ async function httpGet(url: string) {
 let object: any;
 
 async function getObject() {
-  object = await httpGet("https://random-words-api.vercel.app/word");
+  object = await httpGet("https://random-words-api.vercel.app/word/vocabulary");
 
   return object;
 }
